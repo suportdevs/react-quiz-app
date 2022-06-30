@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthServiceProvider";
 import Button from "./Button";
 import Form from "./Form";
@@ -13,6 +13,9 @@ export default function LoginForm() {
 
   const { login } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/";
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -20,7 +23,7 @@ export default function LoginForm() {
       setError("");
       setLoadiing(true);
       await login(email, password);
-      navigate("/");
+      navigate(from, { location: true });
     } catch (err) {
       console.log(err);
       setError("Failed to login");
