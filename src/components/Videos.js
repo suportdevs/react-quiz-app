@@ -9,19 +9,19 @@ export default function Videos() {
   const { videos, error, loading, hasMore } = useVideoList(page);
   return (
     <div>
-      {videos.length > 0 &&
-        videos.map((video) => (
-          <InfiniteScroll
-            dataLength={videos.length}
-            hasMore={hasMore}
-            next={() => setPage(page + 8)}
-            // loader="Loading..."
-          >
-            {video.noq > 0 ? (
-              <Link to="/quiz">
+      {videos.length > 0 && (
+        <InfiniteScroll
+          dataLength={videos.length}
+          hasMore={hasMore}
+          next={() => setPage(page + 8)}
+          loader="Loading..."
+        >
+          {videos.map((video, index) =>
+            video.noq > 0 ? (
+              <Link to={`/quiz/${video.youtubeID}`} key={index}>
+                <p>{video.key}</p>
                 <Video
                   title={video.title}
-                  key={video.youtubeID}
                   noq={video.noq}
                   id={video.youtubeID}
                 />
@@ -29,13 +29,14 @@ export default function Videos() {
             ) : (
               <Video
                 title={video.title}
-                key={video.youtubeID}
+                key={index}
                 noq={video.noq}
                 id={video.youtubeID}
               />
-            )}
-          </InfiniteScroll>
-        ))}
+            )
+          )}
+        </InfiniteScroll>
+      )}
       {!loading && videos.length === 0 && (
         <div style={{ textAlign: "center" }}>Loading...</div>
       )}

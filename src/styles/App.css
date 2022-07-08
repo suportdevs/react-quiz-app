@@ -62,16 +62,13 @@ h4 {
 }
 
 .infinite-scroll-component {
-  width: 25%;
+  width: 100%;
   display: grid;
-  margin: 1rem auto;
-  grid-template-columns: auto auto auto;
+  margin: 3rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
-  grid-gap: 1px;
-  gap: 8px;
-  grid-row-gap: 3px;
-  row-gap: -5px;
-  float: left;
+  gap: 20px;
+  row-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {

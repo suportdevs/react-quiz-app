@@ -2,12 +2,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthServiceProvider } from "../contexts/AuthServiceProvider";
 import "../styles/App.css";
 import Layout from "./Layout";
-import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Quiz from "./pages/Quiz";
 import Result from "./pages/Result";
 import Signup from "./pages/Signup";
 import PrivateRoute from "./PrivateRoute";
+import Videos from "./Videos";
 
 const App = () => {
   return (
@@ -20,12 +20,12 @@ const App = () => {
               path="/"
               element={
                 <PrivateRoute>
-                  <Home />
+                  <Videos />
                 </PrivateRoute>
               }
             ></Route>
             <Route
-              path="quiz"
+              path="quiz/:id"
               element={
                 <PrivateRoute>
                   <Quiz />
@@ -33,7 +33,7 @@ const App = () => {
               }
             />
             <Route
-              path="result"
+              path="result/:id"
               element={
                 <PrivateRoute>
                   <Result />
