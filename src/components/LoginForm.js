@@ -14,7 +14,6 @@ export default function LoginForm() {
   const { login } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
-
   const from = location.state?.from?.pathname || "/";
 
   async function handleSubmit(e) {

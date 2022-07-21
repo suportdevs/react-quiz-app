@@ -1,3 +1,4 @@
+import { getDatabase, ref, set } from "firebase/database";
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthServiceProvider";
@@ -31,12 +32,21 @@ export default function SignUpForm() {
       setError("");
       setLoading(true);
       await signup(email, password, username);
+      await storeUserInfo(username, email, password);
       navigate(from, { location: true });
     } catch (err) {
       console.log(err);
       setLoading(false);
       setError("Failed to creating account");
     }
+  }
+
+  async function storeUserInfo(username, email, password) {
+    const db = getDatabase();
+    const userRef = ref(db, "users/" + username);
+    await set(userRef, {
+      [username]: [email, password],
+    });
   }
 
   return (

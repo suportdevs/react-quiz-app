@@ -1,9 +1,9 @@
 {
   "videos": {
     "1": {
-      "youtubeID": "lb7wT1gVU7Y",
-      "title": "#01 JavaScript Bangla Tutorial | Introduction to JavaScript",
-      "noq": 4
+      "youtubeID": "RVeyh0OioXE",
+      "title": "#01 International Nurses Day 2022 | Nurses Day special Quiz",
+      "noq": 14
     },
     "2": {
       "youtubeID": "5Xy-t8k_M4A",
@@ -162,145 +162,252 @@
     }
   },
   "quiz": {
-    "lb7wT1gVU7Y": {
+    "RVeyh0OioXE": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which day is celebrated as International Nurcese day?",
           "options": [
             {
-              "title": "with var"
+              "title": "May 11"
             },
             {
-              "title": "with let"
+              "title": "May 12"
             },
             {
-              "title": "with const"
+              "title": "June 11"
             },
             {
-              "title": "with variable"
+              "title": "June 12"
             },
             {
               "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Who is known as the founder of modern nursing?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "Florence Nightingale"
             },
             {
-              "title": "October 1999"
+              "title": "Clare Barton"
             },
             {
-              "title": "September 1995"
+              "title": "Mary Breckinridge"
             },
             {
               "title": "September 1993"
             },
             {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "Dorothea Dix"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Florence Nightingale was called as?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "lady of night"
             },
             {
-              "title": "Netscape"
+              "title": "lady of day"
             },
             {
-              "title": "Jack Ma"
+              "title": "lady with lamp"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "lady with light"
             },
             {
               "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is CPR short form in health care industry?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Common Practice Round"
             },
             {
-              "title": "ES2021"
+              "title": "Conserve, Protect, and Restore"
             },
             {
-              "title": "ES6"
+              "title": "Cardiopulmonary resuscitation"
             },
             {
-              "title": "ES7"
+              "title": "Course Progress Report"
+            }
+          ]
+        },
+        {
+          "title": "Which country was the first traning school for nurses established?",
+          "options": [
+            {
+              "title": "United States"
             },
             {
-              "title": "ES8"
+              "title": "Russia"
             },
             {
-              "title": "ES2022"
+              "title": "United Kingdom"
             },
             {
-              "title": "ES21"
+              "title": "India"
+            }
+          ]
+        },
+        {
+          "title": "'When a man is ill his very goodness is sickly.' Whose words are these?",
+          "options": [
+            {
+              "title": "Socrates"
             },
             {
-              "title": "ES3"
+              "title": "Plato"
             },
             {
-              "title": "ES9"
+              "title": "Henry David Thoreau"
             },
             {
-              "title": "ES2020"
+              "title": "Fridrich Nietzsce"
+            }
+          ]
+        },
+        {
+          "title": "What is the systematic problem-solving approach toward providing individualized nursing care?",
+          "options": [
+            {
+              "title": "Nursing care plan"
+            },
+            {
+              "title": "Nursing process"
+            },
+            {
+              "title": "Nurses practice act"
+            },
+            {
+              "title": "Nursing Method"
+            }
+          ]
+        },
+        {
+          "title": "Which year was the nurses registration act established?",
+          "options": [
+            {
+              "title": "1930"
+            },
+            {
+              "title": "1931"
+            },
+            {
+              "title": "1932"
+            },
+            {
+              "title": "1933"
+            }
+          ]
+        },
+        {
+          "title": "When did the WHO celebrate the Year of the nurse and midwife?",
+          "options": [
+            {
+              "title": "2020"
+            },
+            {
+              "title": "2022"
+            },
+            {
+              "title": "2000"
+            },
+            {
+              "title": "2021"
+            }
+          ]
+        },
+        {
+          "title": "Where did Florence Nightingale study nursing?",
+          "options": [
+            {
+              "title": "United Kingdom"
+            },
+            {
+              "title": "Ireland"
+            },
+            {
+              "title": "Australia"
+            },
+            {
+              "title": "Germany"
+            }
+          ]
+        },
+        {
+          "title": "In which war Nightingale serve soldiers?",
+          "options": [
+            {
+              "title": "Crimean War"
+            },
+            {
+              "title": "First Carlist War"
+            },
+            {
+              "title": "Moro Wars"
+            },
+            {
+              "title": "Napoleonic Wars"
+            }
+          ]
+        },
+        {
+          "title": "Who has been given National Florence Nightingale Award 2021?",
+          "options": [
+            {
+              "title": "Kalpona Chawla"
+            },
+            {
+              "title": "Malini Margaret Menezes"
+            },
+            {
+              "title": "Sarojini Naidu"
+            },
+            {
+              "title": "Mother Teresa"
+            }
+          ]
+        },
+        {
+          "title": "Who was the first male Nurse?",
+          "options": [
+            {
+              "title": "George Dunn"
+            },
+            {
+              "title": "Luther Christman"
+            },
+            {
+              "title": "Walt Whitman"
+            },
+            {
+              "title": "Joe Hogan"
+            }
+          ]
+        },
+        {
+          "title": "When was the first time the International Nurses Day celebrated?",
+          "options": [
+            {
+              "title": "1955"
+            },
+            {
+              "title": "1956"
+            },
+            {
+              "title": "1965"
+            },
+            {
+              "title": "1960"
             }
           ]
         }
@@ -1172,152 +1279,266 @@
     }
   },
   "answers": {
-    "lb7wT1gVU7Y": {
+    "RVeyh0OioXE": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which day is celebrated as International Nurcese day?",
           "options": [
             {
-              "title": "with var",
+              "title": "May 11"
+            },
+            {
+              "title": "May 12",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "June 11"
             },
             {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
+              "title": "June 12"
             },
             {
               "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Who is known as the founder of modern nursing?",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "Florence Nightingale",
               "correct": true
+            },
+            {
+              "title": "Clare Barton"
+            },
+            {
+              "title": "Mary Breckinridge"
             },
             {
               "title": "September 1993"
             },
             {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "Dorothea Dix"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Florence Nightingale was called as?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "lady of night"
             },
             {
-              "title": "Netscape",
+              "title": "lady of day"
+            },
+            {
+              "title": "lady with lamp",
               "correct": true
             },
             {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
+              "title": "lady with light"
             },
             {
               "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is CPR short form in health care industry?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Common Practice Round"
             },
             {
-              "title": "ES2021",
+              "title": "Conserve, Protect, and Restore"
+            },
+            {
+              "title": "Cardiopulmonary resuscitation",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "Course Progress Report"
+            }
+          ]
+        },
+        {
+          "title": "Which country was the first traning school for nurses established?",
+          "options": [
+            {
+              "title": "United States"
             },
             {
-              "title": "ES7"
+              "title": "Russia"
             },
             {
-              "title": "ES8"
+              "title": "United Kingdom",
+              "correct": true
             },
             {
-              "title": "ES2022"
+              "title": "India"
+            }
+          ]
+        },
+        {
+          "title": "'When a man is ill his very goodness is sickly.' Whose words are these?",
+          "options": [
+            {
+              "title": "Socrates"
             },
             {
-              "title": "ES21"
+              "title": "Plato"
             },
             {
-              "title": "ES3"
+              "title": "Henry David Thoreau"
             },
             {
-              "title": "ES9"
+              "title": "Fridrich Nietzsce",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the systematic problem-solving approach toward providing individualized nursing care?",
+          "options": [
+            {
+              "title": "Nursing care plan"
             },
             {
-              "title": "ES2020"
+              "title": "Nursing process",
+              "correct": true
+            },
+            {
+              "title": "Nurses practice act"
+            },
+            {
+              "title": "Nursing Method"
+            }
+          ]
+        },
+        {
+          "title": "Which year was the nurses registration act established?",
+          "options": [
+            {
+              "title": "1930"
+            },
+            {
+              "title": "1931"
+            },
+            {
+              "title": "1932",
+              "correct": true
+            },
+            {
+              "title": "1933"
+            }
+          ]
+        },
+        {
+          "title": "When did the WHO celebrate the Year of the nurse and midwife?",
+          "options": [
+            {
+              "title": "2020",
+              "correct": true
+            },
+            {
+              "title": "2022"
+            },
+            {
+              "title": "2000"
+            },
+            {
+              "title": "2021"
+            }
+          ]
+        },
+        {
+          "title": "Where did Florence Nightingale study nursing?",
+          "options": [
+            {
+              "title": "United Kingdom"
+            },
+            {
+              "title": "Ireland"
+            },
+            {
+              "title": "Australia"
+            },
+            {
+              "title": "Germany",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "In which war Nightingale serve soldiers?",
+          "options": [
+            {
+              "title": "Crimean War",
+              "correct": true
+            },
+            {
+              "title": "First Carlist War"
+            },
+            {
+              "title": "Moro Wars"
+            },
+            {
+              "title": "Napoleonic Wars"
+            }
+          ]
+        },
+        {
+          "title": "Who has been given National Florence Nightingale Award 2021?",
+          "options": [
+            {
+              "title": "Kalpona Chawla"
+            },
+            {
+              "title": "Malini Margaret Menezes",
+              "correct": true
+            },
+            {
+              "title": "Sarojini Naidu"
+            },
+            {
+              "title": "Mother Teresa"
+            }
+          ]
+        },
+        {
+          "title": "Who was the first male Nurse?",
+          "options": [
+            {
+              "title": "George Dunn",
+              "correct": true
+            },
+            {
+              "title": "Luther Christman"
+            },
+            {
+              "title": "Walt Whitman"
+            },
+            {
+              "title": "Joe Hogan"
+            }
+          ]
+        },
+        {
+          "title": "When was the first time the International Nurses Day celebrated?",
+          "options": [
+            {
+              "title": "1955"
+            },
+            {
+              "title": "1956"
+            },
+            {
+              "title": "1965",
+              "correct": true
+            },
+            {
+              "title": "1960"
             }
           ]
         }
