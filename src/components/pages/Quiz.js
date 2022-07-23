@@ -66,8 +66,9 @@ export default function Quiz() {
     }
   }
   //calculate percentage of prograss
-  const percentage =
-    questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
+  const percentage = Math.floor(
+    questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0
+  );
 
   // submit quiz
   async function submit() {
